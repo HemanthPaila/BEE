@@ -38,10 +38,60 @@ li
   display: flex;
   height:80px;
   background-color: #E8CA7E;
+  /* background-color: white; */
   align-items: center;
   position: relative;
   border: 1px black solid;
   box-shadow: 0px 0px 5px 0px black;
+}
+@media(max-width:1000px)
+{
+  li
+  {
+    padding-left: 40px;
+  }
+  .logo_container img
+  {
+    height: 40px;
+    width:40px;
+  }
+  .logo_container .logo_name
+  {
+    font-size: 40px;
+  }
+  .logo_container
+  {
+    margin-left: 40px;
+  }
+  ul
+  {
+    right: 40px;
+  }
+}
+
+@media(max-width:844px)
+{
+  li
+  {
+    padding-left: 30px;
+  }
+  .logo_container img
+  {
+    height: 30px;
+    width:30px;
+  }
+  .logo_container .logo_name
+  {
+    font-size: 30px;
+  }
+  .logo_container
+  {
+    margin-left: 30px;
+  }
+  ul
+  {
+    right: 30px;
+  }
 }
 
 
