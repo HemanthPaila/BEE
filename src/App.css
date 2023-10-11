@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* navigation container */
+
 ul
 {
   display:flex;
@@ -94,11 +96,98 @@ li
   }
 }
 
+/* home container */
 
+.home_container
+{
+  height: 655px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-image: url('/public/images/home_page_honey_hieve.png');
+  background-repeat: no-repeat;
+  background-position: 870px 80px; */
+}
+.home_container img
+{
+  width: 100px;
+  height: 100px;
+}
+.home_page_name
+{
+  font-size: 100px;
+  font-family: 'Jura', sans-serif;
+}
+.home_page_upper
+{
+  display: flex;
+}
+.home_page_lower
+{
+  display: flex;
+}
+.home_page_aspired
+{
+  font-size: 50px;
+  color: #E8CA7E;
+  font-family: 'Jura', sans-serif;
+}
+.home_page_designation
+{
+  font-size: 50px;
+  font-family: 'Jura', sans-serif;
+}
 
-
-
-
+@media(max-width:1000px)
+{
+  .home_container
+  {
+    background-position: 500px 80px;
+  }
+  .home_container img
+  {
+    height:90px;
+    width: 90px;
+  }
+  .home_page_name
+  {
+    font-size: 90px;
+  }
+  .home_page_aspired
+  {
+    font-size: 40px;
+  }
+  .home_page_designation
+  {
+    font-size: 40px;
+  }
+}
+@media(max-width:844px)
+{
+  .home_container
+  {
+    background-position: 300px 80px;
+  }
+  .home_container img
+  {
+    height:80px;
+    width: 80px;
+  }
+  .home_page_name
+  {
+    font-size: 80px;
+  }
+  .home_page_aspired
+  {
+    font-size: 30px;
+  }
+  .home_page_designation
+  {
+    font-size: 30px;
+  }
+}
 
 /* .nav_container
 {
