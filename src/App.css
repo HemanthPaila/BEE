@@ -106,9 +106,9 @@ li
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background-image: url('/public/images/home_page_honey_hieve.png');
+  background-image: url('/public/images/home_page_honey_hieve.png');
   background-repeat: no-repeat;
-  background-position: 870px 80px; */
+  background-position: 870px 80px; 
 }
 .home_container img
 {
@@ -188,6 +188,89 @@ li
     font-size: 30px;
   }
 }
+
+
+/* about container */
+.about_container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content_container
+{
+  display: flex;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.about_heading
+{
+  font-size: 40px;
+  text-decoration: underline #E8CA7E;
+  font-family: 'Itim', cursive;
+}
+.about_container img
+{
+  height:300px;
+  width: 300px;
+}
+.about_content
+{
+  font-size: 18px;
+  line-height: 2;
+  font-family: 'Jura', sans-serif;
+  text-align: justify;
+  margin-left: 20px;
+}
+@media(max-width:1000px)
+{
+  .about_heading
+  {
+    font-size: 30px;
+  }
+  .about_container img
+  {
+    height: 200px;
+    width: 200px;
+  }
+  .about_content
+  {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+@media(max-width:844px)
+{
+  .content_container
+  {
+    flex-direction: column;
+  }
+}
+
+/* skills container */
+.skills_container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skills_container img
+{
+  height:500px;
+  width:500px;
+  margin-top: 30px;
+}
+.skills_heading
+{
+  font-size: 40px;
+  text-decoration: underline #E8CA7E;
+  font-family: 'Itim', cursive;
+}
+
+
 
 /* .nav_container
 {
